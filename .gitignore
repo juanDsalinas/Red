@@ -26,6 +26,8 @@ yarn-error.log*
 
 # local env files
 .env*.local
+# add file of credentials/secret-keys for later and save the health
+.env
 
 # vercel
 .vercel
