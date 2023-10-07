@@ -9,7 +9,6 @@ entre los estados mediante un arreglo, el primer elemento se inicializa
 automaticamente con el valor de false */
 export const ModalProvider = () => {
     const [isMounted, setIsMounted] = useState(false);
-
     /* valida los efectos secundarios con el cambio del estado */
     useEffect(()=>{
         setIsMounted(true);
